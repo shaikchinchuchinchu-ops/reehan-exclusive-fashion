@@ -1,0 +1,209 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reehan Exclusive Fashion | Men's Wear Store</title>
+  <style>
+    body{
+      margin:0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background:#fafafa;
+      color:#222;
+    }
+    header{
+      background:#fff;
+      padding:15px 30px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 2px 10px rgba(0,0,0,0.08);
+      position:sticky;
+      top:0;
+      z-index:10;
+    }
+    header h1{
+      margin:0;
+      font-size:24px;
+      letter-spacing:1px;
+      color:#c2185b;
+    }
+    nav a{
+      text-decoration:none;
+      margin-left:20px;
+      font-size:14px;
+      color:#333;
+      font-weight:500;
+    }
+    nav a:hover{color:#c2185b;}.hero{
+  background:url('https://images.unsplash.com/photo-1618354691373-d851c5c3a990') center/cover no-repeat;
+  height:65vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+}
+.hero div{
+  background:rgba(0,0,0,0.55);
+  padding:30px 40px;
+  border-radius:12px;
+}
+.hero h2{
+  font-size:38px;
+  margin-bottom:10px;
+}
+.hero p{
+  font-size:16px;
+  letter-spacing:1px;
+}
+
+.section{
+  max-width:1200px;
+  margin:auto;
+  padding:60px 20px;
+}
+.section h3{
+  text-align:center;
+  font-size:30px;
+  margin-bottom:40px;
+  color:#c2185b;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+  gap:25px;
+}
+.product{
+  background:#fff;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 8px 20px rgba(0,0,0,0.1);
+  transition:transform 0.3s;
+}
+.product:hover{transform:translateY(-6px);}
+.product img{
+  width:100%;
+  height:360px;
+  object-fit:cover;
+}
+.product .info{
+  padding:15px;
+  text-align:center;
+}
+.product h4{
+  margin:5px 0;
+  font-size:18px;
+}
+.product p{
+  margin:5px 0 15px;
+  font-weight:600;
+  color:#c2185b;
+}
+.product button{
+  padding:10px 25px;
+  border:none;
+  border-radius:25px;
+  background:#c2185b;
+  color:#fff;
+  font-size:14px;
+  cursor:pointer;
+}
+.product button:hover{background:#a3154d;}
+
+.booking{
+  background:#fff;
+  max-width:600px;
+  margin:auto;
+  padding:35px;
+  border-radius:15px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+.booking input, .booking select, .booking textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:14px;
+}
+.booking button{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:30px;
+  background:#c2185b;
+  color:#fff;
+  font-size:16px;
+  cursor:pointer;
+}
+
+footer{
+  background:#111;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+  font-size:14px;
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>Reehan Exclusive Fashion</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#booking">Book Now</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero" id="home">
+  <div>
+    <h2>Premium Men's Fashion Collection</h2>
+    <p>Tailoring & Ready‑Made Men's Fashion</p>
+  </div>
+</section><section class="section" id="collection">
+  <h3>Tailoring & Ready‑Made Collection</h3>
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1602810319428-019690571b5b" />
+      <div class="info">
+        <h4>Men's Designer Suit</h4>
+        <p>₹5,999</p>
+        <a href="https://wa.me/917093304733" target="_blank"><button>Book on WhatsApp</button></a>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8" />
+      <div class="info">
+        <h4>Men's Ethnic Kurta</h4>
+        <p>₹2,499</p>
+        <a href="https://wa.me/917093304733" target="_blank"><button>Book on WhatsApp</button></a>
+      </div>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90" />
+      <div class="info">
+        <h4>Men's Casual Wear</h4>
+        <p>₹1,999</p>
+        <a href="https://wa.me/917093304733" target="_blank"><button>Book on WhatsApp</button></a>
+      </div>
+    </div>
+  </div>
+</section><section class="section" id="booking">
+  <h3>Tailoring & Ready‑Made Booking</h3>
+  <div class="booking">
+    <input type="text" placeholder="Your Name" />
+    <input type="tel" placeholder="WhatsApp Number (7093304733)" />
+    <select>
+      <option>Select Men's Product</option>
+      <option>Men's Designer Suit</option>
+      <option>Men's Ethnic Kurta</option>
+      <option>Men's Casual Wear</option>
+    </select>
+    <textarea rows="4" placeholder="Address"></textarea>
+    <button>Submit Booking</button>
+  </div>
+</section><footer id="contact">
+  <p>© 2026 Reehan Exclusive Fashion | Tailoring & Ready‑Made Men's Wear</p>
+</footer></body>
+</html>
